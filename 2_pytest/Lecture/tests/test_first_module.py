@@ -5,6 +5,7 @@ def division(a, b):
     return a / b
 
 
+@pytest.mark.usefixtures('environment')
 class TestDivision:
 
     def test_division_by_5(self):
@@ -16,4 +17,3 @@ class TestDivision:
     def test_division_by_zero(self):
         with pytest.raises(ZeroDivisionError):
             assert division(5, 0), f"Division by zero is working"
-        
