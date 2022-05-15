@@ -1,0 +1,15 @@
+# Login for back for authentication
+back_user: admin
+back_pass: password
+
+# Kafka info
+kafka:
+  caRootLocation: Certs//kafka-ca-root.crt
+  certLocation: Certs//kafka-client.crt
+  keyLocation: Certs//kafka-client.pem
+  bootstrapServers: dev-kafka.example.com:9093
+
+# Database info
+# Select only
+db_host: 127.0.0.1
+port: 6063

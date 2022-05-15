@@ -1,0 +1,14 @@
+{
+    "users": [
+        {
+            "name": "Dominator",
+            "skill": 100,
+            "gold": 1000
+        },
+        {
+            "name": "Who",
+            "skill": 99,
+            "gold": 9999
+        }
+    ]
+}
