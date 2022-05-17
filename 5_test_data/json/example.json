@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "name": "Maks",
+      "age": 22,
+      "gold": 10000,
+      "isAlive": true
+    },
+    {
+      "name": "Nina",
+      "age": 20,
+      "gold": 10001,
+      "isAlive": true
+    },
+    {
+      "name": "Pushkin",
+      "age": 300,
+      "gold": 0,
+      "isAlive": false
+    }
+  ]
+}
