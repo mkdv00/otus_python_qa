@@ -1,0 +1,14 @@
+endpoint,method,expected_status,description
+login,get,405,this method does not exist
+login,post,405,this method does not exist
+login,patch,405,this method does not exist
+login,put,405,this method does not exist
+login,update,405,this method does not exist
+login,options,405,this method does not exist
+login,login,405,this method does not exist
+status,get,200,this method works
+status,post,405,this method does not exist
+status,patch,405,this method does not exist
+status,put,405,this method does not exist
+status,update,405,this method does not exist
+status,hello,200,this method works
